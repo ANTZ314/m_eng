@@ -1,0 +1,14 @@
+Classification Report:
+
+               precision    recall  f1-score   support
+
+folding_marks       0.63      0.93      0.75      5775
+    grain_off       0.90      0.51      0.65      5864
+ growth_marks       0.99      0.97      0.98      5954
+ loose_grains       0.97      0.97      0.97      5761
+non_defective       0.96      0.97      0.96      5983
+      pinhole       0.83      0.81      0.82      5943
+
+     accuracy                           0.86     35280
+    macro avg       0.88      0.86      0.86     35280
+ weighted avg       0.88      0.86      0.86     35280
