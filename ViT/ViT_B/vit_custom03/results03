@@ -1,0 +1,17 @@
+
+Model fit time: [Started 14:37 - Ended 16:20]
+
+Classification Report:
+
+               precision    recall  f1-score   support
+
+folding_marks       0.93      0.81      0.87      5775
+    grain_off       0.78      0.93      0.85      5864
+ growth_marks       0.99      0.98      0.99      5954
+ loose_grains       0.97      0.99      0.98      5761
+non_defective       0.99      0.98      0.99      5983
+      pinhole       0.90      0.84      0.87      5943
+
+     accuracy                           0.92     35280
+    macro avg       0.93      0.92      0.92     35280
+ weighted avg       0.93      0.92      0.92     35280

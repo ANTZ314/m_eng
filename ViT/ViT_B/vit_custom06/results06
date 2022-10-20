@@ -1,0 +1,71 @@
+
+dims = [32,32,3]
+
+---------------------------
+Custom06a2 - Vanilla
+---------------------------
+# 50 EPOCH (2h44):
+# Test accuracy: 93.84%
+# Test top 5 accuracy: 100.0%
+
+Classification Report:
+
+               precision    recall  f1-score   support
+
+folding_marks       0.95      0.92      0.94      5775
+    grain_off       0.93      0.83      0.88      5864
+ growth_marks       1.00      0.99      0.99      5954
+ loose_grains       1.00      0.97      0.98      5761
+non_defective       0.98      0.99      0.98      5983
+      pinhole       0.83      0.96      0.89      5943
+
+     accuracy                           0.94     35280
+    macro avg       0.95      0.94      0.94     35280
+ weighted avg       0.95      0.94      0.94     35280
+
+
+---------------------------
+Custom06a2
+---------------------------
+# 50 EPOCH (~2h44):
+Test accuracy: 91.18%
+Test top 5 accuracy: 100.0%
+
+Classification Report:
+
+               precision    recall  f1-score   support
+
+folding_marks       0.86      0.94      0.89      5775
+    grain_off       0.82      0.86      0.84      5864
+ growth_marks       0.90      0.94      0.92      5954
+ loose_grains       0.98      0.93      0.95      5761
+non_defective       0.98      0.95      0.96      5983
+      pinhole       0.91      0.82      0.86      5943
+
+     accuracy                           0.91     35280
+    macro avg       0.91      0.91      0.91     35280
+ weighted avg       0.91      0.91      0.91     35280
+ 
+
+---------------------------
+Custom06b - SL
+---------------------------
+# 50 EPOCH (2h48):
+Test accuracy: 92.84%
+Test top 5 accuracy: 100.0%
+
+Classification Report:
+
+               precision    recall  f1-score   support
+
+folding_marks       0.96      0.89      0.92      5775
+    grain_off       0.88      0.82      0.85      5864
+ growth_marks       1.00      0.99      0.99      5954
+ loose_grains       0.99      0.98      0.99      5761
+non_defective       0.98      0.98      0.98      5983
+      pinhole       0.82      0.95      0.88      5943
+
+     accuracy                           0.94     35280
+    macro avg       0.94      0.94      0.94     35280
+ weighted avg       0.94      0.94      0.94     35280
+
