@@ -1,8 +1,4 @@
-# d_learning
-
-To update GIT:
-
-	git push https://github.com/ANTZ314/d_learning.git --force
+# M-Eng Deep_learning:
 
 ## anomaly:
 
@@ -65,3 +61,7 @@ Description: Various ViT code examples tested up to classification (at least)
 	* Good test metrics at the end (Activation Map / Confusion Matrix)
 	* Testing incomplete (Colab / Custom Image)
 
+
+**To update GIT:**
+
+	git push https://github.com/ANTZ314/d_learning.git --force
